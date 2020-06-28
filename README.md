@@ -2,7 +2,7 @@
 
 ## Objective
 
-The goal is to solidify and understand the concepts of multiple algorithmic approaches and to further grasp the architecture of data maniuplation
+The goal is to solidify and understand the concepts of multiple algorithmic approaches and to further grasp the architecture of data manipulation
 
 ### Files
 

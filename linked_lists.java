@@ -14,12 +14,12 @@
 * For certain operations that could be useful - i.e. **
 
 * */
-
+public class linked_lists {
 public class Node {
     Node next;
     int data;
     // Add constructor
-    public Node(int data) {
+    public Node(final int data) {
         this.data = data;
     }
 }
@@ -29,8 +29,8 @@ public class LinkedList {
     Node head;
 
     // Append Method
-    public void append(int data) {
-        if (head === null) {
+public void append(final int data) {
+        if (head == null) {
             head = new Node(data);
             return;
         }
@@ -41,13 +41,14 @@ public class LinkedList {
         }
         current.next = new Node(data);
     }
-    public void prepend(int data) {
-        Node newHead = new Node(data);
+
+    public void prepend(final int data) {
+        final Node newHead = new Node(data);
         newHead.next = head;
         head = newHead;
     }
 
-    public void deleteWithValue(int data) {
+    public void deleteWithValue(final int data) {
         if (head == null) return;
         if (head.data == data) {
             head = head.next;
@@ -64,4 +65,8 @@ public class LinkedList {
             }
             current = current.next;
     }
+}
+
+}
+
 }
