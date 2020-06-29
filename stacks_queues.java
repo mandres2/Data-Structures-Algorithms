@@ -92,11 +92,4 @@ public class stacks_queues {
         top = top.next;
         return data;
     }
-
-
-
-
-
-
-
 }

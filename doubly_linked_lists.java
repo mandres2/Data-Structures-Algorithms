@@ -51,8 +51,6 @@ public class doubly_linked_lists {
         public int length() {
             return length;
         }
-
-
     }
 
 

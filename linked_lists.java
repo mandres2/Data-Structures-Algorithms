@@ -14,6 +14,9 @@
 * For certain operations that could be useful - i.e. **
 
 * */
+
+
+// This is an algorithmic approach for a Singly-Linked List Data Structure
 public class linked_lists {
 public class Node {
     // The object will have a "next-value"
