@@ -1,9 +1,6 @@
 # Data Structures and Algorithms
 
-## Objective
+### Objective
 
-The goal is to solidify and understand the concepts of multiple algorithmic approaches and to further grasp the architecture of data manipulation
+The goal is to solidify and understand the concepts of multiple algorithmic approaches and to further grasp the architecture of data manipulation and using those concepts to break down common data structure operations
 
-### Files
-
-Each of the following files in this repository contain examples of data structures and algorithms. The primary language used is: Java

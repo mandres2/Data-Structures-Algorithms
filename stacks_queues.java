@@ -1,5 +1,4 @@
 /*
-
 * Stacks and queues are both linear data structures
     * Contains one element within another
 * Both are flexible with their sizes
@@ -65,7 +64,6 @@ public class stacks_queues {
     }
 
     // Stack Implementation
-
     public class Stack {
         private static class Node {
             private int data;
@@ -82,13 +80,17 @@ public class stacks_queues {
         return top == null;
     }
     public int peek() {
-
+        return top.data;
     }
     public void push(int data) {
-
+        Node node = new Node(data);
+        node.next = top;
+        top = node;
     }
     public int pop() {
-
+        int data = top.data;
+        top = top.next;
+        return data;
     }
 
 
