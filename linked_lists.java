@@ -70,7 +70,6 @@ public void append(final int data) {
                     // If the next value you want to delete, don't go to the element, but instead just walk around it.  Set my pointer to be my next pointer's next pointer
                     current.next = current.next.next;
                     return;
-
                 }
                 current = current.next;
             }
